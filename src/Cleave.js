@@ -98,6 +98,7 @@ Cleave.prototype = {
 
         owner.element = inputFormatter;
         owner.element.id = '';
+        owner.element.name = '';
     },
 
     initNumeralFormatter: function () {
